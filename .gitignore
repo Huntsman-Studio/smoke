@@ -1,0 +1,15 @@
+# dotnet
+obj
+bin
+
+# db
+*.db-shm
+*.db-wal
+*.db
+
+# Migrations
+Migrations/
+
+# appsetiings
+API/appsettings.json
+API/appsettings.Development.json
