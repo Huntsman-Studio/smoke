@@ -15,6 +15,7 @@ public class DatabaseContext : IdentityDbContext<User, Role, int, IdentityUserCl
     }
 
     public DbSet<Message> Messages { get; set; }
+    public DbSet<MessageFiles> Files { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
